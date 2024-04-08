@@ -1,0 +1,14 @@
+## WEB WHATSAPP
+npm install whatsapp-web.js
+npm install qrcode-terminal
+
+## SQLITE
+npm install sqlite3
+
+## PRISMA
+npm install prisma --save-dev 
+npx prisma init --datasource-provider sqlite
+npx prisma migrate dev --name init
+
+## INICIAR SISTEMA
+npm start OU node .
